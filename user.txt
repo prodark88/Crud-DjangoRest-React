@@ -1,0 +1,23 @@
+kenneth-molina899@outlook.es
+elmiocid789mio
+kennetMz
+
+#para conectar el back con el front
+corsheaders
+
+#para documentar automaticamente usar :
+in settings.py APPS
+pip coreapi
+#in settings.py
+REST_FRAMEWORK = {
+    'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema',
+}
+
+
+#react vite
+    npm create vite
+    cd client
+        npm install
+        npm run dev
+        #conectar con el backend
+        npm i react-router-dom react-hot-toast axios react-hook-form
