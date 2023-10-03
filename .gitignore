@@ -5,7 +5,8 @@
 __pycache__
 db.sqlite3
 media
-
+*.txt
+.txt
 .gitignore
 user.txt
 # Backup files # 
